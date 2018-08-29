@@ -1,0 +1,42 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 50,
+    "max": 50
+  },
+  "authentication": {
+    "secret": "5b0f422bd9b887557b9d8fe01c327d9e0e0e63d82d40af57b95c88eef558b405549ae3532c1d60944ef6b496cb58b8b7c758c643e498c11cbb635f52c7b7f8dcc6716dda84cb65bbcb042f2b00917589a4fead55be3f68a4f53d2fef1698a6eead4a0af9b3958e44482d0b8aeae935b2113a9112ce0a7d47d35521f694fb1b65c4e2a1383d4b89f8f0e7f8e1f3344c3441452a01491033685e51c561a496026b0454de8d75c4e52d3e82304c536479d2e664efdda8a9682f1574219d656aa299096ffe3aebea57240074afc6d0bb5f21bcf002fee9c4e74847d9a5544e56e31b08afef71229441ca59817c74f9ad15d5f3b42af946232eedde1aed660b1b84c3",
+    "strategies": [
+      "jwt"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "google": {
+      "clientID": "915941101601-g9bordl9e90jaoj8fbjilm1o5477qg2e.apps.googleusercontent.com",
+      "clientSecret": "sc3BfiAYPKDPDQf9-qqshHdU",
+      "successRedirect": "http://localhost:8080/",
+      "scope": [
+        "profile openid email"
+      ]
+    },
+    "cookie": {
+      "enabled": true,
+      "name": "feathers-jwt",
+      "httpOnly": false,
+      "secure": false
+    }
+  },
+  "mongodb": "mongodb://alibay:password1234@ds113122.mlab.com:13122/alibay_dev"
+}

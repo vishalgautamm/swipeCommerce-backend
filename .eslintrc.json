@@ -1,0 +1,13 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+        "standard"
+    ],
+    "rules": {
+        "jsx-quotes": 0
+    }
+}
