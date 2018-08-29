@@ -1,5 +1,5 @@
 # Swipe Commerce
-This was me, Kyle Khoury and Vishal Gautam's final project for DecodeMTL bootcamp.
+This was me, Vishal Gautam and Kyle Khoury's final project for DecodeMTL bootcamp.
 
 A demo video can be found here:
 https://www.youtube.com/playlist?list=PLZDpLpySTFNV5dTHvKmUmw_6GblpxJisU
@@ -8,7 +8,7 @@ You can also see our presentations slides here:
 https://docs.google.com/presentation/d/1sStB9SupVq1PYPNhJ0Ew6jQXE6u-0ndHw5-DdRqxPVQ/edit?usp=sharing
 
 The frontend can be found here:
-https://github.com/kylefix/swipe-commerce_frontend
+https://github.com/vishalgautamm/swipeCommerce-frontend
 
 ![alt screenshot](https://image.ibb.co/f4cb59/Screen_Shot_2018_08_27_at_6_48_58_PM.png)
 
